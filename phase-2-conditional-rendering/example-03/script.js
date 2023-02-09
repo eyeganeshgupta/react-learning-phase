@@ -1,5 +1,5 @@
 function generateRandomValue() {
-  let numArr = [89, 83, 97, 17, 52, 6, 14, 11, 108, 2];
+  let numArr = [89, 83, 97, 52, 6, 14, 11, 108, 2];
   let index = parseInt(Math.random() * numArr.length);
   return numArr[index];
 }
