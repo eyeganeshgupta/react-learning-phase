@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h3 {
+    color: #f5af19;
+}
+
+h3:hover {
+    color: red;
+}
