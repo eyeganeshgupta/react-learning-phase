@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-image: radial-gradient(circle farthest-corner at 50.4% 50.5%, rgba(251, 32, 86, 1) 0%, rgba(135, 2, 35, 1) 90%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+h1 {
+    color: orange;
+    font-family: Lobster, sans-serif;
+    font-size: 4rem;
+}
+
+span,
+li {
+    color: lightgrey;
+}
+*/
