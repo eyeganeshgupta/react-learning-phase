@@ -1,0 +1,15 @@
+.Student {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+div.Student h1 {
+    font-family: Lobster, sans-serif;
+    color: orange;
+}
+
+div.Student span,
+div.Student ul li {
+    color: gray;
+}
