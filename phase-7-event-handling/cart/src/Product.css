@@ -1,0 +1,30 @@
+.Product {
+    color: darkslategray;
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+li {
+    padding-right: 30px;
+    margin: 8px 0px;
+}
+
+.Product button {
+    background-color: crimson;
+    color: white;
+    font-size: 90%;
+    border-radius: 8px;
+    border: none;
+    padding: 3px 15px 3px 15px;
+    cursor: pointer;
+}
+
+.Product button:hover {
+    background-color: black;
+    color: white;
+}
