@@ -1,0 +1,54 @@
+.LoginForm {
+    width: 25%;
+    margin-top: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+}
+
+label,
+input,
+button {
+    display: block;
+}
+
+label {
+    font-size: x-large;
+}
+
+input {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: x-large;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 6px 13px 6px 15px;
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 6px 15px 6px 15px;
+    font-size: larger;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    color: darkcyan;
+}
+
+span {
+    color: yellowgreen;
+    font-weight: bold;
+}
