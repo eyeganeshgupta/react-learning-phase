@@ -1,0 +1,22 @@
+.App {
+    display: flex;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 7px;
+    display: block;
+    margin: 4px auto 20px auto;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: darkred;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    font-size: larger;
+    cursor: pointer;
+}
