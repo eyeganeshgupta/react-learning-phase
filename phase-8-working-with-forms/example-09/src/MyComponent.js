@@ -12,6 +12,11 @@ class MyComponent extends Component {
   handleChange(synObj) {
     this.setState({ selectValue: synObj.target.value });
   }
+
+  handleSubmit(synObj) {
+    synObj.preventDefault();
+    console.log(this.state.selectValue);
+  }
 }
 
 export default MyComponent;
