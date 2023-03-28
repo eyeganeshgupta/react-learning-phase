@@ -8,6 +8,10 @@ class MyComponent extends Component {
     };
     this.handleChange = this.handleChange.bind(this);
   }
+
+  handleChange(synObj) {
+    this.setState({ selectValue: synObj.target.value });
+  }
 }
 
 export default MyComponent;
