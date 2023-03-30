@@ -5,7 +5,15 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <ProductList/>
+        <ProductList
+          itemsArr={[
+            { productName: "Shirt", quantity: 2 },
+            { productName: "TeaBox", quantity: 8 },
+            { productName: "Earphone", quantity: 3 },
+            { productName: "Smart Phone", quantity: 3 },
+            { productName: "Mivi Speaker", quantity: 1 },
+          ]}
+        />
       </div>
     );
   }
