@@ -65,5 +65,26 @@ export default class ProductList extends Component {
         />
       );
     });
+
+    this.instanceVar = this.instanceVar * 2;
+
+    return (
+      <div className="ProductList">
+        <h1>Your Shopping Cart</h1>
+
+        <section>
+          <table>
+            <tbody>{productList}</tbody>
+          </table>
+        </section>
+
+        <hr />
+
+        <section>
+          <h1>Add New Product</h1>
+          <ProductForm add={this.addProduct} />
+        </section>
+      </div>
+    );
   }
 }
