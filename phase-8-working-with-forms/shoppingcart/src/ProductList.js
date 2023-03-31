@@ -41,4 +41,16 @@ export default class ProductList extends Component {
       }));
     }
   }
+
+  deleteProduct(productName) {
+    console.log("Deleted Button Clicked");
+    let updatedProductsArr = this.state.itemsArr.filter((productObj) => {
+      if (productObj.productName !== productName) {
+        return true;
+      } else {
+        return false;
+      }
+    });
+    this.setState({ itemsArr: updatedProductsArr });
+  }
 }
