@@ -53,4 +53,17 @@ export default class ProductList extends Component {
     });
     this.setState({ itemsArr: updatedProductsArr });
   }
+
+  render() {
+    let productList = this.state.itemsArr.map((value) => {
+      return (
+        <Product
+          item={value}
+          remove={this.deleteProduct}
+          key={value.productName}
+          tempo={this.instanceVar}
+        />
+      );
+    });
+  }
 }
