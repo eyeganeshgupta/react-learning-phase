@@ -16,4 +16,29 @@ export default class ProductList extends Component {
     this.addProduct = this.addProduct.bind(this);
     this.deleteProduct = this.deleteProduct.bind(this);
   }
+
+  addProduct(newProductObj) {
+    let allProductsArr = this.state.itemsArr;
+    let isAvailable = false;
+    for (let productObj of allProductsArr) {
+      if (
+        productObj.productName.trim().toLowerCase() ===
+        newProductObj.productName.trim().toLowerCase()
+      ) {
+        productObj.quantity =
+          productObj.quantity + Number(newProductObj.quantity);
+        isAvailable = true;
+        break;
+      }
+    }
+
+    if (isAvailable) {
+      this.setState({ itemsArr: allProductsArr });
+    } else {
+      newProductObj.quantity = Number(newProductObj.quantity);
+      this.setState((currentState) => ({
+        itemsArr: [...currentState.itemsArr, newProductObj],
+      }));
+    }
+  }
 }
