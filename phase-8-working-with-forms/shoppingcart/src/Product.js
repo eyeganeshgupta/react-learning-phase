@@ -9,6 +9,10 @@ class Product extends Component {
       temp: this.props.tempo,
     };
   }
+
+  handleClick() {
+    this.props.remove(this.props.item.productName);
+  }
 }
 
 export default Product;
