@@ -1,0 +1,25 @@
+.Product {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.productNameBox {
+    text-align: left;
+    width: 50%;
+}
+
+.quantityBox {
+    text-align: center;
+    width: 25%;
+}
+
+.deleteSymbol {
+    text-align: right;
+    width: 25%;
+}
+
+i {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
