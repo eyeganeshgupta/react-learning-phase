@@ -1,0 +1,29 @@
+.ProductForm label,
+.ProductForm input {
+    display: block;
+    color: wheat;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.ProductForm label {
+    margin-top: 3%;
+}
+
+.ProductForm input {
+    border-radius: 6.5px;
+    outline: none;
+    border: none;
+    color: black;
+    padding: 4px 9px 4px 9px;
+}
+
+.ProductForm button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 3%;
+    padding: 1% 2.5% 1% 2.5%;
+    border-radius: 7px;
+}
