@@ -1,0 +1,26 @@
+.ProductList {
+    background: linear-gradient(to right, #16222A, #3A6073, #16222A);
+    padding: 5% 10% 5% 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.ProductList h1 {
+    text-align: center;
+    color: #F3F9A7;
+}
+
+.ProductList hr {
+    border: 1.5px solid grey;
+    margin: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+table {
+    margin-top: 4%;
+    width: 100%;
+    font-size: large;
+}
