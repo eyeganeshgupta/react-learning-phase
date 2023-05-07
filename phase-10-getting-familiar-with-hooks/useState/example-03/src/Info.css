@@ -1,0 +1,20 @@
+.Info {
+  font-size: large;
+  font-weight: bold;
+}
+
+.Info div {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.Info div label,
+input {
+  display: block;
+}
+
+.Info input {
+  outline: none;
+  border-radius: 5px;
+  font-size: large;
+}
