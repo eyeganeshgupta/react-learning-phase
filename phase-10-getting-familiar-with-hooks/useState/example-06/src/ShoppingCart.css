@@ -1,0 +1,40 @@
+.ShoppingCart {
+  font-size: large;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+label,
+input,
+button {
+  display: block;
+}
+
+label:hover {
+  color: darkred;
+  font-weight: bold;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: 400;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0.5rem 0.9rem;
+  font-size: large;
+  background-color: black;
+  color: white;
+}
+
+.empty {
+  color: darkred;
+}
