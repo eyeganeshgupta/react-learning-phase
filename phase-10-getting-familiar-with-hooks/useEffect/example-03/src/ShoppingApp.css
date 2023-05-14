@@ -1,0 +1,18 @@
+.ShoppingApp {
+  font-size: large;
+}
+
+label,
+input,
+button {
+  display: block;
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.9rem;
+  color: white;
+  background-color: black;
+}
