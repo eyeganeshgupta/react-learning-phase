@@ -1,0 +1,16 @@
+.TaskList {
+  width: 100%;
+}
+
+.actions {
+  text-align: right;
+}
+
+tr {
+  border-radius: 3px;
+  border: 2px groove rosybrown;
+}
+
+th {
+  text-align: left;
+}
