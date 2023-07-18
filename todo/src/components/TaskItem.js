@@ -40,4 +40,64 @@ export default class TaskItem extends Component {
   toggleTask() {
     this.props.toggleTask(this.props.position);
   }
+
+  render() {
+    let tableRow;
+    if (this.state.isEditing) {
+      tableRow = (
+        <tr>
+          <td colSpan="2">
+            <form onSubmit={this.handleSubmit}>
+              <input
+                type="text"
+                value={this.state.taskName}
+                onChange={this.handleChange}
+              />
+              <span style={{ float: "right" }}>
+                <button className="save task">Save</button>
+                <button
+                  className="back task"
+                  onClick={() => this.setIsEditing(false)}
+                >
+                  Back
+                </button>
+              </span>
+            </form>
+          </td>
+        </tr>
+      );
+    } else {
+      tableRow = (
+        <tr>
+          <td onClick={this.toggleTask} className="task">
+            <input
+              type="checkbox"
+              readOnly
+              checked={this.props.taskObj.isCompleted}
+            />
+            <span
+              className={
+                this.props.taskObj.isCompleted ? "completed" : "not-completed"
+              }
+            >
+              {this.props.taskObj.taskName}
+            </span>
+          </td>
+          <td className="actions">
+            <button
+              className="edit task"
+              onClick={() => this.setIsEditing(true)}
+            >
+              Edit
+            </button>
+            <button className="delete task" onClick={this.deleteTask}>
+              Delete
+            </button>
+          </td>
+        </tr>
+      );
+    }
+
+    return tableRow;
+  }
 }
